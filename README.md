@@ -1,2 +1,2 @@
-# wpu-myteampage-challage
-My Team Page Challage
+# wpu-myteampage-challenge
+My Team Page Challenge
