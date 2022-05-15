@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'PTserif';
+    src: url(../font/ptf76f-webfont.woff2) format('woff2');
+}
+.judul{
+    font-family: 'PTserif', sans-serif;
+    position: absolute;
+    width: 278px;
+    height: 47px;
+    top: 110px;
+    left: 243px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47.7px;
+    letter-spacing: -0.045em;
+    color: #000000;
+    
+}
