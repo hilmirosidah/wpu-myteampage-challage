@@ -1,6 +1,20 @@
+/* container */
+.container{
+    display: grid;
+}
+
+
+/* header */
+.header{
+    display: grid;
+    grid-template-areas:
+        'judul'
+        'heading'
+        'sub-heading';
+}
 @font-face {
     font-family: 'PTserif';
-    src: url(../font/ptf76f-webfont.woff2) format('woff2');
+    src: url(../font/ptf75f-webfont.woff2) format('woff2');
 }
 .judul{
     font-family: 'PTserif', sans-serif;
@@ -13,6 +27,77 @@
     font-size: 36px;
     line-height: 47.7px;
     letter-spacing: -0.045em;
+    color: #000000;  
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(../font/poppins-thin-webfont.woff2) format('woff2');
+}
+.heading{
+    font-family: 'Poppins';
+    position: absolute;
+    width: 117px;
+    height: 27px;
+    top: 110px;
+    left: 736px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
     color: #000000;
-    
+
+}
+
+.sub-heading{
+    font-family: 'Poppins',sans-serif ;
+    position: absolute;
+    width: 439px;
+    height: 87px;
+    top: 147px;
+    left: 736px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+
+/* gambar */
+
+.gambar{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    width: 750px;
+    height: 1000px;
+    gap: 100px;
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-bottom: 150px;
+}
+
+.gambar img{
+    min-width: 238px;
+}
+
+/* footer */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../font/montserratalternates-semibold-webfont.woff2) format('woff2');
+}
+
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    top: 1448px;
+    left: 547px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    align-items: center;
+    color: #a9a9a9;
+
+
 }
