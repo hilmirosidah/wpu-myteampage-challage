@@ -31,12 +31,12 @@
 /* header */
 .header{
     display: flex;
-   flex-grow: 1 ;
+    flex-grow: 1;
+    column-gap: 100px;
 }
 
 .judul{
     font-family: 'PTserif', sans-serif;
-    position: absolute;
     width: 400px;
     height: 47px;
     top: 110px;
@@ -50,7 +50,6 @@
 
 .heading{
     font-family: 'Poppins';
-    position: absolute;
     width: 117px;
     height: 27px;
     top: 110px;
@@ -64,7 +63,6 @@
 
 .sub-heading{
     font-family: 'Poppins',sans-serif ;
-    position: absolute;
     width: 439px;
     height: 87px;
     top: 147px;
@@ -159,106 +157,106 @@
 
 
 /* responsive */
-@media (max-width:600px){
-
-    /* container */
-.container{
-    grid-template-rows: 200px 1000px   100px;
-    grid-template-columns: 375px;
-    width: 375px;
-    height: 1409px;
-    margin: 71px 12px 0 12px;
-    gap: 50px;
-}
+@media screen and (max-width:600px){
+    .container{
+        grid-template-rows: 200px 1000px   100px;
+        grid-template-columns: 375px;
+        width: 375px;
+        height: 1409px;
+        margin: 71px 12px 0 12px;
+        gap: 50px;
+    }
 
 
-/* header */
-.header{
-    flex-wrap: wrap;
-}
+    /* header */
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-.judul{
-    width: 278px;
-    top: 71px;
-    left: 12px; 
-}
+    .judul{
+        width: 278px;
+        top: 71px;
+        left: 12px; 
+    }
 
-.heading{
-    top: 156px;
-    left: 12px;
-}
+    .heading{
+        top: 156px;
+        left: 12px;
+    }
 
-.sub-heading{
-    width: 333px;
-    top: 193px;
-    left: 12px;
-    font-size: 14px;
-    line-height: 21px;
-}
+    .sub-heading{
+        width: 333px;
+        top: 193px;
+        left: 12px;
+        font-size: 14px;
+        line-height: 21px;
+    }
 
 
-/* gambar */
+    /* gambar */
 
-.gambar{
-    display: grid;
-    grid-template-columns:180px 180px ;
-    grid-template-rows: 300px 300px 300px;
-    width: 750px;
-    height: 1000px;
-    column-gap: 0;
-    row-gap: 25px;
+    .gambar{
+        display: grid;
+        grid-template-columns:180px 180px ;
+        grid-template-rows: 300px 300px 300px;
+        width: 750px;
+        height: 1000px;
+        column-gap: 0;
+        row-gap: 25px;
   
    
-}
+    }
 
-.gambar img{
-    max-width: 138px;
-}
+    .gambar img{
+        max-width: 138px;
+    }
 
-.pict1, .pict3, .pict5 {
-    align-self: flex-start;
-    display: grid;
-    grid-template-columns: 140px 15px;
-    grid-template-rows: 225px 15px;
-}
+    .pict1, .pict3, .pict5 {
+        align-self: flex-start;
+        display: grid;
+        grid-template-columns: 140px 15px;
+        grid-template-rows: 225px 15px;
+    }
 
 
-.pict2, .pict4, .pict6 {
-    align-self: flex-end;
-    display: grid;
-    grid-template-columns: 140px 15px;
-    grid-template-rows: 225px 15px;
+    .pict2, .pict4, .pict6 {
+        align-self: flex-end;
+        display: grid;
+        grid-template-columns: 140px 15px;
+        grid-template-rows: 225px 15px;
 
-}
+    }
 
-.gambar p{
-    width: 130px;
-    height: 11px;
-    top: 318px;
-    left: 175px;
-    font-size: 10px;
-    line-height: 13.25px;
-    margin-top: 60px;
+    .gambar p{
+        width: 130px;
+        height: 11px;
+        top: 318px;
+        left: 175px;
+        font-size: 10px;
+        line-height: 13.25px;
+        margin-top: 60px;
 
-}
+    }
 
-.gambar b{
-    width: 128px;
-    height: 18px;
-    top: 537px;
-    left: 19px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
+    .gambar b{
+        width: 128px;
+        height: 18px;
+        top: 537px;
+        left: 19px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
   
-}
+    }
 
 
 
-/* footer */
-.footer{
-    width: 350px;
-    margin-left: 46px;
-    font-weight: 500;
+    /* footer */
+    .footer{
+        width: 350px;
+        margin-left: 46px;
+        font-weight: 500;
 
+    }
 }
